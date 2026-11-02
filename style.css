@@ -1,4 +1,96 @@
 /* inline styling
-   internal styling
    external styling
  */
+
+/* 
+ eternal styling or css
+ 
+ 1.tag
+ e.g h1
+ 2.class 
+ .(dot) and the name of what you want  to name it
+ 3.id
+#(hash) and the name of what you want  to name it
+ 
+ */
+
+
+ /*  by tag */
+
+ nav{
+  height: 150px;
+  width: 510px;
+border: 2px solid chocolate;
+
+
+/* border-style: solid;
+border-color: chocolate;
+border: 2px; */
+  color: white;
+ }
+
+ /* section{
+  height: 150px; 
+  width:170px;
+  background-color: blue; 
+  color: white
+ } */
+
+/*  by class */
+
+.miracle{
+   height: 150px; 
+  width:170px;
+  background-color: blue; 
+  color: white;
+  border-radius: 0px 0px 0px 40px;
+}
+.victor{
+   height: 150px; 
+  width:150px;
+  background-color:green; 
+  color: white;
+  border-radius: 75px;
+
+}
+
+.smith{
+   height: 150px; 
+  width:170px;
+  background-color: red; 
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.chika{
+  display: flex;
+}
+
+#foot{
+  height: 150px;
+  width:510px;
+  background-color: rgb(255, 0, 136); 
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.image1{
+   height: 150px; 
+  width:150px;
+  border-radius: 75px;
+}
+
+.f, .l, .e, .x{
+  height: 150px;
+  width: 100px;
+  background-color: gold;
+  color:black;
+  text-align: center;
+
+}
