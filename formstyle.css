@@ -1,0 +1,12 @@
+form{
+    padding: 20px;
+    height: 600px;
+    width: 300px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-left: 300px;
+    background-image: url("./image/8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
