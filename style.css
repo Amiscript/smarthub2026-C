@@ -1,8 +1,25 @@
+*{
+    cursor: pointer;
+}
+
+
 .nav-link{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.932);
+    position: fixed;
+    z-index: 2;
+    gap: 110px;
+    border-bottom: 2px solid rgba(216, 215, 215, 0.788);
+  top: -2px;
+  
 
+}
+
+.children{
+    margin-top: 40px;
+    position: absolute;
 }
 
 .nav-items, ul{
@@ -16,6 +33,10 @@
     line-height: 10px;
    
     
+}
+.nelfund{
+    height: 50px;
+    width: 100px;
 }
 
 span{
@@ -37,8 +58,9 @@ span{
 .sec-1{
     height: 250px;
     width: auto;
-    background-color: green;
+    background-color: #036734;
     color: white;
+  
 }
 .text-1{
    
@@ -65,4 +87,9 @@ padding: 10px 30px 10px 30px;
     border-radius: 15px;
     border: none;
     color: black;
+}
+
+.sec-2{
+    display: flex;
+    justify-content: center;
 }
